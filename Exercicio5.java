@@ -21,34 +21,6 @@ class HeapQuiz {
         hq[3] = hq[2];
         hq[2] = hq[0];
 
-        //Acresentei somente para testar
-        if (hq[0] != null) {
-            System.out.println("hq[0].id = " + hq[0].id);
-        } else {
-            System.out.println("hq[0] é null");
-        }
-
-        if (hq[1] != null) {
-            System.out.println("hq[1].id = " + hq[1].id);
-        } else {
-            System.out.println("hq[1] é null");
-        }
-
-        if (hq[2] != null) {
-            System.out.println("hq[2].id = " + hq[2].id);
-        } else {
-            System.out.println("hq[2] é null");
-        }
-
-        if (hq[3] != null) {
-            System.out.println("hq[3].id = " + hq[3].id);
-        } else {
-            System.out.println("hq[3] é null");
-        }
-        if (hq[3] != null) {
-            System.out.println("hq[4].id = " + hq[4].id);
-        } else {
-            System.out.println("hq[4] é null");
-        }
+        
     }
 }
